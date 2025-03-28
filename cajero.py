@@ -75,3 +75,5 @@ while True:
         break
     else:
         print('Error: no seleccionó una opción válida')
+        
+print("Rama alternativo")
