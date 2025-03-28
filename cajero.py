@@ -52,7 +52,7 @@ while True:
     seleccion_cliente = lista_nombres[seleccion]
     if seleccion in range(len(lista_nombres)):
         while True:
-            operaciones = int(input('¿Qué quiere hacer?:\n0: Ver\n1: Retirar\n2: Consignar\n3: SALIR\n'))
+            operaciones = int(input('¿Qué quiere hacer?:\n0: Ver\n1: Retirar\n2: Consignar\n3: Transferir\n4 SALIR\n'))
             saldo_cuenta_usuario = dict_users[seleccion_cliente]
             # Ver
             if operaciones == 0:
